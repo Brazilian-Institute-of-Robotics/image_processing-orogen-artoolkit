@@ -1,0 +1,14 @@
+<package>
+  <description brief="This component detects ARToolKit Marker as provide as output the marker pose.">
+  
+  </description>
+  <author>Diego Cesar/diego.cesar@dfki.de</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <depend package="image_processing/artoolkit" />
+  <depend package="image_processing/frame_helper" />
+  <depend package="base/types" />
+  <depend package="opencv" />
+</package>
