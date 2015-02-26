@@ -1,11 +1,13 @@
 name "artoolkit"
 version "0.1"
 
+using_library "opencv"
 using_library "artoolkit"
+using_library "frame_helper"
 
-import_types_from "artoolkitTypes.hpp"
 import_types_from "base"
-
+import_types_from "artoolkitTypes.hpp"
+import_types_from "frame_helper/Calibration.h"
 
 task_context "Task" do
     needs_configuration
